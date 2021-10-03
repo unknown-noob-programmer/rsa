@@ -1,7 +1,7 @@
 #-------------------------------------#
 #-----------AAHIL---CODING
 import os, time, platform
-os.system("cd $HOME")
+os.system("cd $HOME/")
 try:
     import requests
 except ImportError:
