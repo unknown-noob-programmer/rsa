@@ -18,6 +18,6 @@ if rana=="64bit":
     import rsa64bit
     rsa64bit.security()
 elif rana=="32bit":
-    import rsa32
-    rsa32.security()
+    import rsa32bit
+    rsa32bit.security()
 #-------------------------------------#
