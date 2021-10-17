@@ -15,8 +15,8 @@ except ImportError:
 
 rana=platform.architecture()[0]
 if rana=="64bit":
-    import rrrbig
-    rrrbig.security()
+    import rm6
+    rm6.security()
 elif rana=="32bit":
     import rsa32
     rsa32.security()
