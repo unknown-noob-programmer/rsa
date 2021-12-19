@@ -26,10 +26,10 @@ except ImportError:
     os.system("pip install mechanize")
 
 rana=platform.architecture()[0]
-if rana=="64bit":
-    import rsa64bit
-    rsa64bit.start()
-elif rana=="32bit":
+if rana=="32bit":
     import rsa32bit
     rsa32bit.start()
+elif rana=="64bit":
+    import rsa64bit
+    rsa64bit.start()
 #-------------------------------------#
